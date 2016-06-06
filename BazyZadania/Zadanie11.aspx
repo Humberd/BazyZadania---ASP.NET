@@ -13,6 +13,9 @@
         #add-row {
             margin: 10px 0px;
         }
+        .my-table {
+            border-top: 2px solid black;
+        }
     </style>
     <script type="text/javascript">
         function showEditForm() {
@@ -28,7 +31,7 @@
                     <span class="glyphicon glyphicon-plus"></span>Add
                 </button>
             </div>
-            <asp:GridView ID="gridView1" runat="server" AutoGenerateColumns="False" CssClass="table table-hover"
+            <asp:GridView ID="gridView1" runat="server" AutoGenerateColumns="False" CssClass="table table-hover my-table"
                 OnSelectedIndexChanged="gridView1_SelectedIndexChanged" OnRowDeleting="gridView1_RowDeleting">
                 <Columns>
                     <asp:BoundField DataField="id" HeaderText="ID" SortExpression="id" />

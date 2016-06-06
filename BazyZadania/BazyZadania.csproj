@@ -79,6 +79,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Zadanie12.aspx" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="Zadanie11.aspx.designer.cs">
       <DependentUpon>Zadanie11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Zadanie12.aspx.cs">
+      <DependentUpon>Zadanie12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Zadanie12.aspx.designer.cs">
+      <DependentUpon>Zadanie12.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
