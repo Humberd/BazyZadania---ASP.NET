@@ -80,6 +80,7 @@
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Zadanie12.aspx" />
+    <Content Include="Zadanie13.aspx" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -93,6 +94,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserDetails.cs" />
     <Compile Include="UsersDB.cs" />
+    <Compile Include="Zadanie13CitiesDB.cs" />
+    <Compile Include="Zadanie13CityDetails.cs" />
+    <Compile Include="Zadanie13UserDetails.cs" />
+    <Compile Include="Zadanie13UsersDB.cs" />
     <Compile Include="Zadanie11.aspx.cs">
       <DependentUpon>Zadanie11.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -106,6 +111,13 @@
     </Compile>
     <Compile Include="Zadanie12.aspx.designer.cs">
       <DependentUpon>Zadanie12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Zadanie13.aspx.cs">
+      <DependentUpon>Zadanie13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Zadanie13.aspx.designer.cs">
+      <DependentUpon>Zadanie13.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
